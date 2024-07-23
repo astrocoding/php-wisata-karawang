@@ -1,3 +1,18 @@
+function loadDataToModal(data) {
+  document.getElementById('id').value = data.id;
+  document.getElementById('nama').value = data.nama;
+  document.getElementById('phone').value = data.telp;
+  document.getElementById('participants').value = data.partisipan;
+  document.getElementById('tanggal').value = data.tanggal;
+  document.getElementById('durasi').value = data.durasi;
+  document.getElementById('penginapan').checked = data.penginapan == 1 ? true : false;
+  document.getElementById('transportasi').checked = data.transportasi == 1 ? true : false;
+  document.getElementById('makanan').checked = data.makanan == 1 ? true : false;
+  document.getElementById('tiketPrice').value = data.tiket;
+  document.getElementById('subtotal').value = data.subtotal;
+  document.getElementById('total').value = data.total;
+}
+
 $(document).ready(function() {
   const penginapanPrice = parseInt($('#penginapanPrice').text().replace(/\D/g, ''), 10);
   const transportasiPrice = parseInt($('#transportasiPrice').text().replace(/\D/g, ''), 10);
