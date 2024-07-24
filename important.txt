@@ -1,0 +1,5 @@
+Note: Halaman Daftar Pesanan dan Form Input Lokasi Wisata hanya bisa diakses oleh operator, untuk customer secara umum untuk akses index.php dan Form Pemesanan
+
+login operator:
+email: operator@gmail.com
+password: admin123
