@@ -1,7 +1,5 @@
 <?php
     include("./php/koneksi.php");
-
-    var_dump($base_url);
 ?>
 <!DOCTYPE html>
 <html lang="ID">
